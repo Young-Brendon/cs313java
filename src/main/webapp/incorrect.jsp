@@ -14,6 +14,6 @@
     <body>
         <h1>Login Failed</h1>
         <p>Please try again.
-        <a href="/login/login.jsp" title="Login">Login</a></p>
+        <a href="/login.jsp" title="Login">Login</a></p>
     </body>
 </html>

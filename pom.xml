@@ -5,7 +5,11 @@
 	<artifactId>java</artifactId>
 	<packaging>war</packaging>
 	<version>1.0</version>
+<<<<<<< HEAD
 	<name>java</name>
+=======
+	<name>majors</name>
+>>>>>>> 0fac768c269116b98fca45eb0c72791cffa12392
 	<repositories>
 		<repository>
 			<id>eap</id>
@@ -17,6 +21,14 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+<<<<<<< HEAD
+=======
+                <repository>
+                        <id>oss.sonatype.org</id>
+                        <name>OSS Sonatype Staging</name>
+                        <url>https://oss.sonatype.org/content/groups/staging</url>
+                </repository>
+>>>>>>> 0fac768c269116b98fca45eb0c72791cffa12392
 	</repositories>
 	<pluginRepositories>
 		<pluginRepository>
@@ -32,6 +44,7 @@
 	</pluginRepositories>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+<<<<<<< HEAD
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
 	</properties>
@@ -52,6 +65,49 @@
 			<version>3.0.1</version>
 			<scope>provided</scope>
 		</dependency>
+=======
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+	<dependencies>
+		<dependency>
+                    <groupId>org.postgresql</groupId>
+                    <artifactId>postgresql</artifactId>
+                    <version>9.2-1003-jdbc4</version>
+		</dependency>     
+		<dependency>
+                    <groupId>javax.servlet</groupId>
+                    <artifactId>javax.servlet-api</artifactId>
+                    <version>3.0.1</version>
+                    <scope>provided</scope>
+		</dependency>
+                <dependency>
+                    <groupId>javax.servlet.jsp</groupId>
+                    <artifactId>jsp-api</artifactId>
+                    <version>2.1</version>
+                    <scope>provided</scope>
+                </dependency>
+                <dependency>
+                    <groupId>mysql</groupId>
+                    <artifactId>mysql-connector-java</artifactId>
+                    <version>5.1.35</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.facebook4j</groupId>
+                    <artifactId>facebook4j-core</artifactId>
+                    <version>2.2.2</version>
+                </dependency>
+                <dependency>
+                    <groupId>com.fasterxml.jackson.core</groupId>
+                    <artifactId>jackson-databind</artifactId>
+                    <version>2.5.1</version>
+                </dependency>
+                <dependency>
+                    <groupId>org.eclipse.persistence</groupId>
+                    <artifactId>eclipselink</artifactId>
+                    <version>2.6.1-RC1</version>
+                </dependency>
+>>>>>>> 0fac768c269116b98fca45eb0c72791cffa12392
 	</dependencies>
 	<profiles>
 		<profile>
@@ -78,4 +134,8 @@
 			</build>
 		</profile>
 	</profiles>
+<<<<<<< HEAD
 </project>
+=======
+</project>
+>>>>>>> 0fac768c269116b98fca45eb0c72791cffa12392
